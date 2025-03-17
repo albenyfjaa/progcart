@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Layer Loader
+qgisMinimumVersion=3.0
+description=LayerLoader é um plugin para QGIS que permite baixar e carregar automaticamente arquivos Shapefile e TIF a partir de uma URL. Ele facilita a obtenção e manipulação de dados geoespaciais ao automatizar o download, extração e carregamento das camadas no QGIS.
+version=0.1
+author=CP Albeny (ICA/IME) e Ten Ventura (IME)
+email=albeny.filipe@ime.eb.br; ventura.luis@ime.eb.br
+
+about=LayerLoader é um plugin para QGIS que permite baixar e carregar automaticamente arquivos Shapefile e TIF a partir de uma URL que estão compactados na extensão zip. O aplicativo facilita a obtenção e manipulação de dados geoespaciais ao automatizar o download, extração e carregamento das camadas no QGIS. Funcionalidades: Download Automático: Obtém arquivos compactados (.zip) de servidores remotos via URL. Extração de Arquivos: Descompacta automaticamente os arquivos baixados. Carregamento no QGIS: Identifica e adiciona camadas vetoriais (pontos, linhas e polígonos) e matriciais ao projeto do QGIS. Organização por Tipo Geométrico: Classifica e adiciona camadas conforme seu tipo (raster, polígono, linha ou ponto). Ideal para usuários que precisam acessar frequentemente dados geográficos online e carregá-los no QGIS sem complicações.
+
+tracker=https://github.com/albenyfjaa
+repository=https://github.com/albenyfjaa
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=web
+
+homepage=https://github.com/albenyfjaa
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
