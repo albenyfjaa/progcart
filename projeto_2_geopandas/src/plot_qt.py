@@ -1,8 +1,6 @@
 import sys
 import time
-
 import numpy as np
-
 from matplotlib.backends.backend_qtagg import FigureCanvas
 from matplotlib.backends.backend_qtagg import \
     NavigationToolbar2QT as NavigationToolbar
