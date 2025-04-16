@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/plugins/SirgasCon" >
-        <file>icon.png</file>
-    </qresource>
-</RCC>
