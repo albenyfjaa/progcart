@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=SIRGAS-CON
+qgisMinimumVersion=3.0
+description=Sirgas-CON
+version=0.1
+author=Filipe José Americano Albeny e Luis Philippe Ventura Rodrigues
+email=albeny.filipe@ime.eb.br e ventura.luis@ime.eb.br
+
+about=The SIRGAS-CON plugin automates the process of downloading, extracting, and visualizing geodetic stations from the SIRGAS-CON network directly within QGIS. With just a few clicks, the user can download the official and most up-to-date coordinate and velocity files from the SIRGAS-CON network. It merges the position and velocity data into a single point shapefile (.shp). Optionally, the user may provide a polygon vector layer (such as federal, state, or municipal boundaries), and the plugin will select only the stations located within the specified area. The plugin also allows the user to filter stations based on the occupation period by specifying the desired start and end dates.
+
+tracker=http://bugs
+repository=http:https://github.com/albenyfjaa/progcart/tree/main/projeto_2_geopandas/albeny_projeto2
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/albenyfjaa/progcart
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
